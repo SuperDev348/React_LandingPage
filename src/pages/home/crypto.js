@@ -24,7 +24,12 @@ const Crypto = () => {
             <Grid item sm={6} xs={12}>
               <CoinPanel coin="" title="Decentraland" price="83.31" percentage="22.3" isUp={true} />
             </Grid>
-            
+            <Grid item sm={6} xs={12}>
+              <CoinPanel coin="" title="Polkarare" price="46.03" percentage="16.4" isUp={true} />
+            </Grid>
+            <Grid item sm={6} xs={12}>
+              <CoinPanel coin="" title="SHIBA INU" price="31.84" percentage="12.0" isUp={true} />
+            </Grid>
           </Grid>
         </Grid>
         <Grid className="asset-content" item md={6} xs={12}>

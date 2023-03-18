@@ -15,9 +15,7 @@ const Leaders = () => {
             <Grid item sm={6} xs={12}>
               <CoinPanel coin="/image/yearn_classic_finance.png" title="Yearn Classic Finance" price="20.19" percentage="109.3" isUp={true} />
             </Grid>
-            <Grid item sm={6} xs={12}>
-              <CoinPanel coin="/image/decentraland.png" title="Decentraland" price="3.12" percentage="27.1" isUp={true} />
-            </Grid>
+            
             <Grid item sm={6} xs={12}>
               <CoinPanel coin="/image/shiba_inu.png" title="SHIBA INU" price="0.00005225" percentage="21.4" isUp={true} />
             </Grid>
